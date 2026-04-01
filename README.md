@@ -2,7 +2,7 @@
 
 > Describe an icon in words. Get a pixel-perfect SVG in any style.
 
-A [Claude Code](https://claude.ai/code) skill that generates precise SVG icons from natural language descriptions, supporting 5 visual styles and batch generation for consistent icon sets.
+An [OpenClaw](https://openclawskill.ai) skill that generates precise SVG icons from natural language descriptions, supporting 5 visual styles and batch generation for consistent icon sets.
 
 ## Features
 
@@ -24,12 +24,12 @@ A [Claude Code](https://claude.ai/code) skill that generates precise SVG icons f
 ## Installation
 
 ```bash
-claude skill add daizhouchen/svg-icon-forge
+npx @anthropic-ai/claw@latest skill add daizhouchen/svg-icon-forge
 ```
 
 ## How It Works
 
-1. Claude interprets your icon description and selects the appropriate style
+1. OpenClaw interprets your icon description and selects the appropriate style
 2. Generates SVG using templates or custom paths
 3. `scripts/optimize_svg.py` optimizes and validates the output
 4. Delivers SVG file(s) with optional React/Vue component wrappers
